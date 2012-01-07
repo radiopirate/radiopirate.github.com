@@ -19,6 +19,9 @@
             a:hover {
                 color: #09c426;
             }
+            header {
+                text-align: center;
+            }
             h1, h2, h3 {
                 font-family: "Trade Winds";
             }
@@ -47,9 +50,6 @@
                 margin: 0;
                 padding: 0;
             }
-            #content {
-                position: relative;
-            }
             #summary {
                 margin: 10px 0 0 0;
                 padding: 0;
@@ -57,8 +57,6 @@
                 border: 1px dotted #c1c1c1;
                 border-left: none;
                 border-right: none;
-            }
-            #summary li {
             }
             #summary a {
                 display: block;
@@ -89,10 +87,9 @@
                 padding: 0;
                 list-style-type: circle;
             }
-            #intro {
+            #hakimbey-quote {
                 margin-top: 80px;
                 font-style: italic;
-                float: right;
                 padding-left: 10px;
             }
             #left {
@@ -104,9 +101,6 @@
             #right {
                 float: left;
                 width: 48%;
-            }
-            #thanks-laius {
-                padding-right: 10px;
             }
             #poeme {
                 text-align: center;
@@ -126,7 +120,6 @@
             #artists .artist {
                 font-weight: bold;
             }
-
             .quote-start {
                 float: left;
                 height: 18px;
@@ -137,6 +130,9 @@
                 height: 18px;
                 margin: -13px 0 0 5px;
             }
+            .musicpiratelogo {
+                text-align: center;
+            }
             .clear {
                 clear: both;
             }
@@ -145,7 +141,7 @@
 <body>
     <header>
         <h1>Radio Pirate</h1>
-        <div style="text-align: center;"><img src="creativepirate.png" align="absmiddle" alt="Creative Pirate" /></div>
+        <img src="creativepirate.png" align="absmiddle" alt="Creative Pirate" />
         <h2 class="subtitle">La carte blanche donnée par <a href="http://www.radiogrenouille.com/programmes/thematiques/pirates/">Radio Grenouille</a></h2>
     </header>
 
@@ -176,11 +172,10 @@
             </div>
         </div>
         <div id="right">
-            <div id="intro">
-                <p><span class="quote-start">&ldquo;</span>Si la TAZ est un campement nomade, alors le web est le pourvoyeur des chants épiques, des généalogies et des légendes de la tribu ; il a en mémoire les routes secrètes des caravanes et les chemins d'embuscade qui assurent la fluidité de l'économie tribale ; il contient même certaines des routes à suivre et certains rêves qui seront vécus comme autant de signes et d'augures. &nbsp;&nbsp;&nbsp;<a href="http://www.gyw.com/hakimbey/">Hakim Bey</a><span class="quote-end">&rdquo;</span></p><p></p>
-                <div style="text-align: center; margin-top: 0px;"><img src="http://a1.twimg.com/profile_images/1144624264/totenkopf.png" align="absmiddle" alt="Creative Pirate" /></div>
+            <div id="hakimbey-quote">
+                <p><span class="quote-start">&ldquo;</span>Si la TAZ est un campement nomade, alors le web est le pourvoyeur des chants épiques, des généalogies et des légendes de la tribu ; il a en mémoire les routes secrètes des caravanes et les chemins d'embuscade qui assurent la fluidité de l'économie tribale ; il contient même certaines des routes à suivre et certains rêves qui seront vécus comme autant de signes et d'augures. &nbsp;&nbsp;&nbsp;<a href="http://www.gyw.com/hakimbey/">Hakim Bey</a><span class="quote-end">&rdquo;</span></p>
+                <div class="musicpiratelogo"><img src="musicpirate.png" align="absmiddle" alt="Musique Pirate" /></div>
             </div>
-        </div>
         </div>
         <div class="clear"></div>
 
@@ -203,44 +198,43 @@
         <p><b>Mary aka ...</b> pour Radio Grenouille.</p>
         
         <div id="artists">
-        <h2><a name="artists">Les artistes par ordre de diffusion</a></h2>
-        <ol>
-            <li><span class="artist">Talco</span> - Tortuga</li>
-            <li><span class="artist">Dan Bull</span> - Death of ACTA</li>
-            <li><span class="artist">Danakil</span> - Marley</li>
-            <li><span class="artist">Stein Branding</span> -I Know That</li>
-            <li><span class="artist">Nehoryn featured MaryPoppins</span> - T.A.Z</li>
-            <li><span class="artist">Kapadnoms</span> - Les Sonneurs De Reves</li>
-            <li><span class="artist">SONGO 21</span> - Me da Risa</li>
-            <li><span class="artist">General Union</span> - Beerdrinker Lock the door</li>
-            <li><span class="artist">Sex For Moderns</span> - Penetrating Love Ray</li>
-            <li><span class="artist">Leonard_Cohen</span> - Who by Fire</li>
-            <li><span class="artist">the Transisters</span> - Electromagnetic(New)Wave</li>
-            <li><span class="artist">Ruth Theodore</span> - Worm Food</li>
-            <li><span class="artist">Malicorne</span> - Marions les roses</li>
-            <li><span class="artist">Nicolle Chirino</span> - Now You're Free</li>
-            <li><span class="artist">Filastine</span> - Singularities</li>
-            <li><span class="artist">Jimmy The Hideous Penguin</span> - Penguin scratchin</li>
-            <li><span class="artist">Fenster</span> - Free Software Song</li>
-            <li><span class="artist">Beirut</span> - A Sunday Smile</li>
-            <li><span class="artist">Jammin-inc</span> - System Overload</li>
-            <li><span class="artist">Fredzefred</span> - All Da Mother Fucker</li>
-            <li><span class="artist">fresh body shop</span> - Mary</li>
-            <li><span class="artist">Dan Masquelier</span> - Rain Rain</li>
-            <li><span class="artist">MaelStröM</span> - Rock'n'roll song</li>
-            <li><span class="artist">Contreband</span> - Samedi soir</li>
-            <li><span class="artist">ArtOfficial</span> - Big City Bright Lights</li>
-            <li><span class="artist">Bosko</span> - Occupy Until Wall Street Crumbles</li>
-            <li><span class="artist">Taline</span> - Window T-Zo Remix</li>
-            <li><span class="artist">Kate Bush</span> - Army Dreamers</li>
-            <li><span class="artist">Dinah Washington</span> - Teach Me Tonight</li>
-            <li><span class="artist">Strange Republik</span> - Damage</li>
-            <li><span class="artist">Anonymous vs Lefebvre</span> - Montage maison</li>
-            <li><span class="artist">Klaus Badelt</span> - Hes a pirate</li>
-            <li><span class="artist">Massilia Sound System</span> - Au marché du soleil</li>
-        </ol>
+            <h2><a name="artists">Les artistes par ordre de diffusion</a></h2>
+            <ol>
+                <li><span class="artist">Talco</span> - Tortuga</li>
+                <li><span class="artist">Dan Bull</span> - Death of ACTA</li>
+                <li><span class="artist">Danakil</span> - Marley</li>
+                <li><span class="artist">Stein Branding</span> -I Know That</li>
+                <li><span class="artist">Nehoryn featured MaryPoppins</span> - T.A.Z</li>
+                <li><span class="artist">Kapadnoms</span> - Les Sonneurs De Reves</li>
+                <li><span class="artist">SONGO 21</span> - Me da Risa</li>
+                <li><span class="artist">General Union</span> - Beerdrinker Lock the door</li>
+                <li><span class="artist">Sex For Moderns</span> - Penetrating Love Ray</li>
+                <li><span class="artist">Leonard_Cohen</span> - Who by Fire</li>
+                <li><span class="artist">the Transisters</span> - Electromagnetic(New)Wave</li>
+                <li><span class="artist">Ruth Theodore</span> - Worm Food</li>
+                <li><span class="artist">Malicorne</span> - Marions les roses</li>
+                <li><span class="artist">Nicolle Chirino</span> - Now You're Free</li>
+                <li><span class="artist">Filastine</span> - Singularities</li>
+                <li><span class="artist">Jimmy The Hideous Penguin</span> - Penguin scratchin</li>
+                <li><span class="artist">Fenster</span> - Free Software Song</li>
+                <li><span class="artist">Beirut</span> - A Sunday Smile</li>
+                <li><span class="artist">Jammin-inc</span> - System Overload</li>
+                <li><span class="artist">Fredzefred</span> - All Da Mother Fucker</li>
+                <li><span class="artist">fresh body shop</span> - Mary</li>
+                <li><span class="artist">Dan Masquelier</span> - Rain Rain</li>
+                <li><span class="artist">MaelStröM</span> - Rock'n'roll song</li>
+                <li><span class="artist">Contreband</span> - Samedi soir</li>
+                <li><span class="artist">ArtOfficial</span> - Big City Bright Lights</li>
+                <li><span class="artist">Bosko</span> - Occupy Until Wall Street Crumbles</li>
+                <li><span class="artist">Taline</span> - Window T-Zo Remix</li>
+                <li><span class="artist">Kate Bush</span> - Army Dreamers</li>
+                <li><span class="artist">Dinah Washington</span> - Teach Me Tonight</li>
+                <li><span class="artist">Strange Republik</span> - Damage</li>
+                <li><span class="artist">Anonymous vs Lefebvre</span> - Montage maison</li>
+                <li><span class="artist">Klaus Badelt</span> - Hes a pirate</li>
+                <li><span class="artist">Massilia Sound System</span> - Au marché du soleil</li>
+            </ol>
         </div>
     </section>
-    <footer></footer>
 </body>
 </html>
